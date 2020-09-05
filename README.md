@@ -5,4 +5,4 @@ The following files contain:
 
 Maize dataset: Phenotypic information used in this paper.
 
-Stan models: Script for the Bayesian analyses of models 1 -4.
+Stan models: Script for the Bayesian analyses of models 1 - 4.

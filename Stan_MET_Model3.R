@@ -220,7 +220,7 @@ stan_df_comp <- stan_model(model_code = stan_df)
 # Fit the stan models
 Model3 <- sampling(stan_df_comp,
                      data = df_stan, 
-                     iter = 2000,
+                     iter = 4000,
                      cores = 4,
                      chain = 4)
 
@@ -275,7 +275,6 @@ mean(s2_gm_post) # Genetic by Region variance
 # Subset the error variance
 sigma <- (out$sigma)^2
 mean(sigma)
-
 
 # Getting maximum a posteriori values (MAP)
 source('get_map.R') # Function to obtain the maximum a posteriori (MAP) value

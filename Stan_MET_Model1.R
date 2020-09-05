@@ -236,7 +236,7 @@ sigma <- (out$sigma)^2
 mean(sigma)
 
 # Getting maximum a posteriori values (MAP)
-source('get_map.R') # Function to obtain the maximum a posterior (MAP) value
+source('get_map.R') # Function to obtain the maximum a posteriori (MAP) value
 
 # For the replication effects
 r_map <- get_map(r_post)

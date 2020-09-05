@@ -57,7 +57,7 @@ y <- df$GY
 phi <- max(y) * 10
 
 # Create enviroment index
-index <- rep(1:nlevels(df$L), each = nlevels(df$H)*nlevels(df$R))
+index <- rep(1:nlevels(df$L), times = as.numeric(table(df$L)))
 
 # Create a list to store data for stan
 df_stan <- list(n = n,
@@ -233,7 +233,7 @@ stan_df_comp <- stan_model(model_code = stan_df)
 # Fit the stan models
 Model4 <- sampling(stan_df_comp,
                      data = df_stan, 
-                     iter = 4s000,
+                     iter = 4000,
                      cores = 4,
                      chain = 4)
 
@@ -289,9 +289,9 @@ mean(s2_m_post) # Region variance
 s2_gm_post <- (out$s_gm)^2
 mean(s2_gm_post) # Genetic by Region variance
 
-# Subset the error variance
-sigma <- (out$sigma)^2
-mean(sigma)
+# Subset the error variance by environment
+sigmaENV <- data.frame(Env = paste0('Env_',unique(index)),
+                       Sigma_hat = apply(out1$sigma^2, 2, mean)) 
 
 # Getting maximum a posteriori values (MAP)
 source('get_map.R') # Function to obtain the maximum a posteriori (MAP) value

@@ -53,8 +53,8 @@ y <- df$GY
 phi <- max(y) * 10
 
 # Create enviroment index
-index <- rep(1:nlevels(df$L), each = nlevels(df$H)*nlevels(df$R))
- 
+index <- rep(1:nlevels(df$L), times = as.numeric(table(df$L)))
+
 # Create a list to store data for stan
 df_stan <- list(n = n,
                p_1 = p_1,
@@ -250,11 +250,9 @@ mean(s2_gl_post) # genotype by location variance
 s2_l_post <- (out$s_l)^2
 mean(s2_l_post) # location variance
 
-# Subset the error variance
-sigma_1 <- (out$sigma[,1])^2; mean(sigma_1)
-sigma_2 <- (out$sigma[,2])^2; mean(sigma_2)
-sigma_3 <- (out$sigma[,3])^2; mean(sigma_3)
-sigma_4 <- (out$sigma[,4])^2; mean(sigma_4)
+# Subset the error variance by environment
+sigmaENV <- data.frame(Env = paste0('Env_',unique(index)),
+                       Sigma_hat = apply(out1$sigma^2, 2, mean)) 
 
 # Subset the error variance
 sigma <- (out$sigma)^2
