@@ -12,15 +12,12 @@
 ##              MD Krause       <krause.d.matheus@gmail.com>                                                          ##
 ##                                                                                                                    ##
 ########################################################################################################################
-rm(list = ls()); ls()
 
 # Loading Library
 library(dplyr)
 library(rstan)
 
 # Loading data
-PREFIX = '/mnt/ArquivosKaio/Kaio_Drive/JOB/Papers/Paper_Bayes_Model_GxE/GIT_HUB'
-setwd(paste0(PREFIX, '/data'))
 df <- read.csv("maize_dataset.csv", h = TRUE)
 
 # Defining Factors 
