@@ -252,7 +252,7 @@ mean(s2_l_post) # location variance
 
 # Subset the error variance by environment
 sigmaENV <- data.frame(Env = paste0('Env_',unique(index)),
-                       Sigma_hat = apply(out1$sigma^2, 2, mean)) 
+                       Sigma_hat = apply(out$sigma^2, 2, mean)) 
 
 # Subset the error variance
 sigma <- (out$sigma)^2

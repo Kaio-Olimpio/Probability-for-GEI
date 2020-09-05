@@ -291,7 +291,7 @@ mean(s2_gm_post) # Genetic by Region variance
 
 # Subset the error variance by environment
 sigmaENV <- data.frame(Env = paste0('Env_',unique(index)),
-                       Sigma_hat = apply(out1$sigma^2, 2, mean)) 
+                       Sigma_hat = apply(out$sigma^2, 2, mean)) 
 
 # Getting maximum a posteriori values (MAP)
 source('get_map.R') # Function to obtain the maximum a posteriori (MAP) value
