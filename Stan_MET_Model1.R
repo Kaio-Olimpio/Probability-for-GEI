@@ -12,7 +12,6 @@
 ##              MD Krause       <krause.d.matheus@gmail.com>                                                          ##
 ##                                                                                                                    ##
 ########################################################################################################################
-rm(list = ls()); ls()
 
 # Loading Library
 library(dplyr)
@@ -190,7 +189,7 @@ stan_df_comp <- stan_model(model_code = stan_df)
 # Fit the stan models
 Model1 <- sampling(stan_df_comp,
                      data = df_stan, 
-                     iter = 600,
+                     iter = 4000,
                      cores = 4,
                      chain = 4)
 
