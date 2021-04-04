@@ -1,5 +1,5 @@
-# Unraveling genotype-by-environment interaction with probability theory. 
-Dias et al. 2020
+# Leveraging probability concepts for genotype by environment recommendation 
+Dias et al. 2021
 
 The following files contain:
 
