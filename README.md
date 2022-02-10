@@ -1,5 +1,5 @@
-# Leveraging probability concepts for genotype by environment recommendation 
-Dias et al. 2022
+# Leveraging probability concepts for cultivar recommendation in multi-environment trials 
+Dias, K.O.G., dos Santos, J.P.R., Krause, M.D., Piepho, H.P., Guimarães, L.J.M., Pastina, M.M., Garcia, A.A.F. Theoretical and Applied Genetics. https://doi.org/10.1007/s00122-022-04041-y 
 
 The following files contain:
 
