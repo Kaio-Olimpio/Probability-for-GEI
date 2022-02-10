@@ -2,12 +2,12 @@
 ##                                                                                                                    ##                                        
 ##                                                                                                                    ##
 ##  Bayesian Analysis for MET data                                                                                    ##
-##  Date: Feb, 2022                                                                                               ##
+##  Date: Feb, 2022                                                                                                   ##
 ##                                                                                                                    ##
-##  Unraveling genotype-by-environment interaction with probability theory                                            ##
+##  Leveraging probability concepts for cultivar recommendation in multi‑environment trials                           ##
 ##  Dias et al. 2022. Model 2 (M2)                                                                                    ##
 ##                                                                                                                    ##
-##  Authors:    KOG Dias        <kaioolimpio@usp.br>                                                                  ##
+##  Authors:    KOG Dias        <kaio.o.dias@ufv.br>                                                                  ##
 ##              JPR dos Santos  <jhowpd@gmail.com>                                                                    ##
 ##              MD Krause       <krause.d.matheus@gmail.com>                                                          ##
 ##                                                                                                                    ##

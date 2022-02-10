@@ -8,3 +8,7 @@ Maize dataset: Phenotypic information used in this paper.
 Wheat dataset: Phenotypic and SNP information used in this paper.
 
 Stan models: Script for the Bayesian analyses of models 1 - 5.
+
+get_map.R: Function to obtain the maximum a posteriori (MAP) value.
+
+get_pp_check.R: Function to perform the posterior predictive check. 
