@@ -1,7 +1,7 @@
 
 
 ##  Unraveling genotype-by-environment interaction with probability theory                                             
-##  Dias et al. 2020.               
+##  Dias et al. 2022.              
 ## 
 ##  Function to obtain the maximum a posteriori (MAP) value                                                      
 ##                                                                                                                     

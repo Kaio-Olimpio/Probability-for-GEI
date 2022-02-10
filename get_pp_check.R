@@ -1,6 +1,6 @@
 
 ##  Unraveling genotype-by-environment interaction with probability theory                                             
-##  Dias et al. 2021.               
+##  Dias et al. 2022.               
 ## 
 ##  Function to perform the posterior predictive check                                                     
 ##                                                                                                                     

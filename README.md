@@ -1,5 +1,5 @@
 # Leveraging probability concepts for genotype by environment recommendation 
-Dias et al. 2021
+Dias et al. 2022
 
 The following files contain:
 
