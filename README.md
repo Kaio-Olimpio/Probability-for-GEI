@@ -5,4 +5,6 @@ The following files contain:
 
 Maize dataset: Phenotypic information used in this paper.
 
-Stan models: Script for the Bayesian analyses of models 1 - 4.
+Wheat dataset: Phenotypic and SNP information used in this paper.
+
+Stan models: Script for the Bayesian analyses of models 1 - 5.

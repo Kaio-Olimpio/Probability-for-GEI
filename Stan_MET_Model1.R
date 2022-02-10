@@ -2,10 +2,10 @@
 ##                                                                                                                    ##                                        
 ##                                                                                                                    ##
 ##  Bayesian Analysis for MET data                                                                                    ##
-##  Date: Sep, 2020                                                                                                   ##
+##  Date: Feb, 2022                                                                                                     ##
 ##                                                                                                                    ##
 ##  Unraveling genotype-by-environment interaction with probability theory                                            ##
-##  Dias et al. 2020. Model 1 (M1)                                                                                    ##
+##  Dias et al. 2022. Model 1 (M1)                                                                                    ##
 ##                                                                                                                    ##
 ##  Authors:    KOG Dias        <kaioolimpio@usp.br>                                                                  ##
 ##              JPR dos Santos  <jhowpd@gmail.com>                                                                    ##
